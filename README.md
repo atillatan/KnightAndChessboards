@@ -13,8 +13,8 @@
 **- Download pre-compiled applications according to your Operating System.**
 **Releases**
 
-- [Windows 10 x64](Releases/win10-x64/win10-x64.zip)
-- [Mac OS x64](Releases/osx-x64/osx-x64.zip)
+- [Windows 10 x64](https://github.com/atillatan/KnightAndChessboards/releases/download/win10-x64/win10-x64.zip)
+- [Mac OS x64](https://github.com/atillatan/KnightAndChessboards/releases/download/osx-x64/osx-x64.zip)
 
 Windows 10
 - Go to the "KnightAndChessboards/Releases/"
