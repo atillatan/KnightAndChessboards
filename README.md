@@ -13,14 +13,14 @@
 **- Download pre-compiled applications according to your Operating System.**
 **Releases**
 
-[Windows 10 x64](Releases/win10-x64/win10-x64.zip)
-[Mac OS x64](Releases/osx-x64/osx-x64.zip)
-
+- [Windows 10 x64](Releases/win10-x64/win10-x64.zip)
+- [Mac OS x64](Releases/osx-x64/osx-x64.zip)
 
 Windows 10
 - Go to the "KnightAndChessboards/Releases/"
 - unzip "win10-x64.zip"
 - Execute "KnightAndChessboards.exe" file
+
 
 
 Mac OS
@@ -29,8 +29,8 @@ Mac OS
 - Execute following command
 
 ```shell
-cd KnightAndChessboards/Releases/
-./KnightAndChessboards
+$ cd KnightAndChessboards/Releases/
+$ ./KnightAndChessboards
 ```
 
 **- Download source code and compile it**
