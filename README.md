@@ -22,10 +22,10 @@ Windows 10
 - Execute "KnightAndChessboards.exe" file
 
 
-
 Mac OS
 - Go to the "KnightAndChessboards/Releases/"
 - unzip "osx-x64.zip"
+- Open Terminal
 - Execute following command
 
 ```shell
