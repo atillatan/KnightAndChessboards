@@ -26,12 +26,12 @@ namespace Atilla.KnightAndChessboards
         // | U | V |   |   | Y |
         // --------------------- 
         private static readonly string[,] Chessboard = new string[5, 5] {
-        { "U"  , "P", "K", null , "A"  },
-        { "V"  , "Q", "L", "G"  , "B"  },
-        { null , "R", "M", "H"  , "C"  },
-        { null , "S", "N", "I"  , null },
-        { "Y"  , "T", "O", "J"  , "E"  }
-    };
+            { "U"  , "P", "K", null , "A"  },
+            { "V"  , "Q", "L", "G"  , "B"  },
+            { null , "R", "M", "H"  , "C"  },
+            { null , "S", "N", "I"  , null },
+            { "Y"  , "T", "O", "J"  , "E"  }
+        };
 
         private static Dictionary<string, List<int[]>> ProducedStrings { get; set; } = new Dictionary<string, List<int[]>>();
 
