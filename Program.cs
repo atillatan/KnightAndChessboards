@@ -92,7 +92,7 @@ namespace Atilla.KnightAndChessboards
                 {
                     string producedString = ProduceString(visitedCells);
                     ProducedStrings[producedString] = visitedCells;
-                    // Console.WriteLine(producedString);
+                    // Console.WriteLine(producedString + "," + visitedCells.Count);
                 }
 
                 // remove current cell from history for next possible paths
@@ -109,7 +109,6 @@ namespace Atilla.KnightAndChessboards
 
                 if (IsExist(targetX, targetY))
                 {
-
                     if (remainingJumps == 1)
                     {
                         // A valid knight jump is not allowed to start or end on an non valid cell.
@@ -121,10 +120,8 @@ namespace Atilla.KnightAndChessboards
                     }
                     else
                     {
-                        // create new history for new path
-                        List<int[]> newVisitedCells = new List<int[]>();
-                        newVisitedCells.AddRange(visitedCells);
-                        MoveKnight(newVisitedCells, targetX, targetY, remainingJumps - 1);
+                        // create new history for new path                     
+                        MoveKnight(new List<int[]>(visitedCells), targetX, targetY, remainingJumps - 1);
                     }
                 }
             }
