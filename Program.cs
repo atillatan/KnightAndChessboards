@@ -170,10 +170,11 @@ namespace Atilla.KnightAndChessboards
         {
             string resultString = "";
 
-            foreach (int[] c in visitedCells)
+            for (var i = 0; i < visitedCells.Count; i++)
             {
+                int[] c=visitedCells[i];
                 resultString = resultString + Chessboard[c[0], c[1]];
-            }
+            }        
 
             return resultString;
         }
